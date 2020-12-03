@@ -46,6 +46,14 @@
     color: #ffffff
 }
 
+.conteudo img {
+    position: absolute;
+    top: 20px;
+    left: 1100px;
+    width: 7%;
+    height: auto;
+}
+
 .controles {
     display: flex;
     align-items: center;
@@ -59,7 +67,7 @@
 
 .barraDeProgresso {
     background-color: transparent;
-    width: 76%;
+    width: 69%;
     left: 247px;
     top: 120px;
     position: absolute;
@@ -72,6 +80,7 @@
     appearance: none;
     background-color:#a2b1c6;
     border-radius: 25px;
+    outline: none;
 }
 
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TS-Player</title>
+    <title>Péricles-Player</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -11,18 +11,22 @@
 <body>
     <div id="player">
         <div class="controles">
-            <button id="pre"> <img src="images/anterior.svg"></button>
-            <button id="pre"> <img id="play_img" src="images/play.svg"></button>
-            <button id="pre"> <img src="images/proximo.svg"></button>
+            <button id="anterior"> <img src="images/anterior.svg"></button>
+            <button id="retroceder"> <img src="images/retroceder.svg"></button>
+            <button id="play"> <img id="play_img" src="images/play.svg"></button>
+            <button id="avancar"> <img src="images/avancar.svg"></button>
+            <button id="proxima"> <img src="images/proximo.svg"></button>
         </div>
         <div class="conteudo">
-            <h3>Titulo</h3>
-            <p class="artista">Artista</p>
+            <h3 class="title1">Titulo</h3>
+            <p class="artista">Péricles</p>
             <audio src="musics/Selena Gomez - Lose You To Love Me.mp3"></audio>
+            <img src="images/fotoPericles.png">
         </div>
     </div>
     <div class="barraDeProgresso">
         <input id="range" class="level" type="range" value="0" min="0">
     </div>
+    <script src="player.js"></script>
 </body>
 </html>
